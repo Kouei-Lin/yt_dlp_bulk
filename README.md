@@ -16,7 +16,7 @@ You can install them using:
 
 `pip install -r requirements.txt`
 
-- yt-dlp installation.
+- yt-dlp Installed
 
 `sudo apt install yt-dlp`
 
