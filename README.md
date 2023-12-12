@@ -7,12 +7,19 @@ This Python script allows you to scrape video URLs from a YouTube channel using 
 Before using the script, ensure you have the following:
 
 1. Python Installed
+
 If you haven't already, visit [here](https://www.python.org/) to install Python for your OS.
+
 2. Python Libraries Installed
+
 You can install them using:
+
 `pip install -r requirements.txt`
+
 3. yt-dlp installation.
+
 `sudo apt install yt-dlp`
+
 Replace with your OS' package manager.
 
 # Getting Started
@@ -25,7 +32,9 @@ Replace with your OS' package manager.
 
 ## 2. Set `.env`
 `cp .env_example .env`
+
 Paste in the Youtube API and the channel you want to scrap into `.env`.
+
 Visit [here](https://www.streamweasels.com/tools/youtube-channel-id-and-user-id-convertor/) to convert channel handle to channelID.
 
 ## 3. Scrap URLs
@@ -33,6 +42,7 @@ Visit [here](https://www.streamweasels.com/tools/youtube-channel-id-and-user-id-
 
 ## 4. Download videos
 `chmod +x yt_download.sh`
+
 `./yt_download.sh`
 
 ## Enjoy
