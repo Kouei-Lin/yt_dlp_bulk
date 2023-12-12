@@ -24,26 +24,33 @@ Replace with your OS' package manager.
 
 # Getting Started
 
-## 1. Set up Google API credentials
+## 1. Clone the repo
+`git clone https://github.com/Kouei-Lin/yt_dlp_bulk`
+
+`cd yt_dlp_bulk`
+
+## 2. Set up Google API credentials
 
 - Create a project on the [Google Cloud Console](https://console.cloud.google.com/).
 - Enable the YouTube Data API v3 for your project.
 - Create API credentials (API key).
 
-## 2. Set `.env`
+## 3. Set `.env`
 `cp .env_example .env`
 
 Paste in the Youtube API and the channel you want to scrap into `.env`.
 
 Visit [here](https://www.streamweasels.com/tools/youtube-channel-id-and-user-id-convertor/) to convert channel handle to channelID.
 
-## 3. Scrap URLs
+## 4. Scrap URLs
 `python3 main.py`
 
-## 4. Download videos
+It will create a `yt_url.txt` file in the current directory
+
+## 5. Download videos
 `chmod +x yt_download.sh`
 
 `./yt_download.sh`
 
-## Enjoy
+## 6. Enjoy
 Videos should be in the `video` folder in the same directory.
