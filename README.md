@@ -6,17 +6,17 @@ This Python script allows you to scrape video URLs from a YouTube channel using 
 
 Before using the script, ensure you have the following:
 
-1. Python Installed
+- Python Installed
 
 If you haven't already, visit [here](https://www.python.org/) to install Python for your OS.
 
-2. Python Libraries Installed
+- Python Libraries Installed
 
 You can install them using:
 
 `pip install -r requirements.txt`
 
-3. yt-dlp installation.
+- yt-dlp installation.
 
 `sudo apt install yt-dlp`
 
