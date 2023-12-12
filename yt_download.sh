@@ -4,7 +4,7 @@
 url_file="yt_url.txt"
 
 # Create an output folder for downloaded videos
-output_folder="podcast"
+output_folder="video"
 
 # Create the output folder if it doesn't exist
 mkdir -p "$output_folder"
