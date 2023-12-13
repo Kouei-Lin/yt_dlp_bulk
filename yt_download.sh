@@ -9,15 +9,8 @@ output_folder="video"
 # Create the output folder if it doesn't exist
 mkdir -p "$output_folder"
 
-# Function to download a single video
-download_video() {
-    local url="$1"
+# Loop through each URL in the text file and download the video
+while IFS= read -r url
+do
     yt-dlp -o "$output_folder/%(title)s.%(ext)s" "$url"
-}
-
-# Export the function to make it available to parallel
-export -f download_video
-
-# Use parallel to download videos in parallel
-cat "$url_file" | parallel -j4 download_video
-
+done < "$url_file"

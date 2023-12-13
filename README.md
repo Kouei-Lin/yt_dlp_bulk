@@ -18,7 +18,7 @@ You can install them using:
 
 ### yt-dlp Installed
 
-`sudo apt install yt-dlp parallel`
+`sudo apt install yt-dlp`
 
 Replace with your OS' package manager.
 
